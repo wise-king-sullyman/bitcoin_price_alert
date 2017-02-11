@@ -1,4 +1,4 @@
-# bitcoin_price_alert
+# bitcoin price alert
 Python script to alert a user via text or email if the value of bitcoin (currently based on coindesk.com's coindesk bpi) changes by a set amount during a set amount of time, for instance $10 of price increase or drop in an hour. 
 
 if you have any problems/questions please create an issue on the github page or email me at a.m.sullivan.github@gmail.com
