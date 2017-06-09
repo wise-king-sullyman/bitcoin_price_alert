@@ -118,7 +118,8 @@ while True: #will loop until manually closed
         sendsms( sms = ('LAV exceeded, current BTC value = ' + str(BTC_VAL) + ' new LAV = ' + str(low_alarm_val) + ' new HAV = ' + str(high_alarm_val)))
         time.sleep(10)
 
-		
+    else:
+	time.sleep(60)
 '''
 Copyright 2017 A. M. Sullivan (a.m.sullivan.github@gmail.com)
 
