@@ -58,6 +58,10 @@ import time
 from socket import error as SocketError
 import errno
 
+#Here we need to get the PID (Process I.D.) and put that in a .pid file so we can monitor the programs status with external process monitoring solutions.
+import os
+os.system("ps -A | grep python2 | awk '{print $1}' > ./btcpricealert.pid")
+
 alarm_amount = 10.00000 #enter value change that you want to be alerted by in USD
 #for example with this value you will be alerted if the price increases or decreases by $10 over the
 #course of an hour
